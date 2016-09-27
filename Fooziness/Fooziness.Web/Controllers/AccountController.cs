@@ -56,7 +56,7 @@ namespace Fooziness.Web.Controllers
         public ActionResult Login(string returnUrl)
         {
             ViewBag.Returnurl = returnUrl;
-            return View();
+            return View(); 
         }
 
 
