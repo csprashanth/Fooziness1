@@ -57,7 +57,7 @@ namespace Fooziness.Web.Controllers
         {
             ViewBag.Returnurl = returnUrl;
             return View(); 
-        }
+        } 
 
 
         [HttpPost]
