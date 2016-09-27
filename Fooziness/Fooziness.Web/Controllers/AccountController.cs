@@ -53,7 +53,7 @@ namespace Fooziness.Web.Controllers
             }
         }
         [AllowAnonymous]
-        public ActionResult Login(string returnUrl)
+        public ActionResult Login(string returnUrl) 
         {
             ViewBag.Returnurl = returnUrl;
             return View(); 
